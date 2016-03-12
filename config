@@ -1,0 +1,8 @@
+Host asimple
+	HostName asimpletutorial.com
+	User bartho54
+	Port 22
+Host *
+	StrictHostKeyChecking ask
+	UserKnownHostsFile ~/.ssh/known_hosts
+	ServerAliveInterval 120
